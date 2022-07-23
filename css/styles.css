@@ -278,7 +278,7 @@ text-align: center;
     justify-content: center;
     gap: 10px;}
 
-       .icons-link{
+    .icons-link{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -294,10 +294,10 @@ text-align: center;
 
 
     .icon-link{display: block;
-        fill: #AFB1B8;
-    }
-    .icons-link:hover .icon-link,
-    .icons-link:focus .icon-link {fill: #FFFFFF;}
+        fill: #AFB1B8;}
+
+    .icon-link:hover,
+    .icon-link:focus {fill: #FFFFFF;}
 
  /* fotter */
  .footer{background-color:var(--futer-fon) ;
