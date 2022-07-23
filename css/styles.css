@@ -123,10 +123,8 @@ margin-left: auto;}
 .mail{margin-right: 50px;
     display: flex;
        }
-.icon-mail{
-    
-}
 
+    
 .header-contact .mailtel-h {color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -184,7 +182,7 @@ border-radius: 4px;
 }
 
 /* Характеристика компании*/
-.rrr{
+.icons{
     display:inline-block;
 }
 
