@@ -136,10 +136,10 @@ margin-left: auto;}
 .mailtel-h:hover,
 .mailtel-h:focus {color: var(--accent-color);}
 
-.icon-mail:hover,
+/* .icon-mail:hover,
 .icon-mail:focus {
-    color: var(--accent-color);
-}
+    color: var(--accent-color); */
+/* } */
 
 
 /* main */
@@ -191,8 +191,17 @@ border-radius: 4px;
 }
 
 /* Характеристика компании*/
+.profile-fon{background-color: #F5F4FA;
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
 .icons{
-    display:inline-block;
+    display:block;
+   
+    
 }
 
 .properties-list{display: flex;}
