@@ -329,8 +329,8 @@ gap: 30px;}
 
 .icon-client{fill: #AFB1B8;}
 
-.icon-client:hover,
-.icon-client:focus{fill: var(--accent-color);}
+.client .icon-client:hover,
+.client .icon-client:focus{fill: var(--accent-color);}
 
  /* fotter */
  .footer{background-color:var(--futer-fon) ;
