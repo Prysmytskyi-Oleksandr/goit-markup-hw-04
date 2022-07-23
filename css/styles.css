@@ -200,6 +200,8 @@ border-radius: 4px;
 }
 .icons{
     display:block;
+    width: 100%;
+    height: 100%;
    
     
 }
@@ -270,6 +272,17 @@ text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    .list-icons{display: flex;}
+
+       .icons-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+
+       }
+        .icon-link{display: block;}
 
  /* fotter */
  .footer{background-color:var(--futer-fon) ;
