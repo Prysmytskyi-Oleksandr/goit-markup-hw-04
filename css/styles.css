@@ -296,8 +296,8 @@ text-align: center;
     .icon-link{display: block;
         fill: #AFB1B8;
     }
-        .icons-link:hover .icon-link,
-        .icons-link:focus .icon-link {fill: #FFFFFF;}
+    .icons-link:hover .icon-link,
+    .icons-link:focus .icon-link {fill: #FFFFFF;}
 
  /* fotter */
  .footer{background-color:var(--futer-fon) ;
