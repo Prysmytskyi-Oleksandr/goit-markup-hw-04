@@ -245,7 +245,8 @@ gap: 30px;}
  .section-team{background-color: #F5F4FA;
 padding-top: 94px;
 padding-bottom: 94px;}
- .team{display: flex;
+
+.team{display: flex;
 flex-wrap: wrap;
 gap: 30px;
 text-align: center;
@@ -298,6 +299,30 @@ text-align: center;
 
     .icon-link:hover,
     .icon-link:focus {fill: #FFFFFF;}
+
+/* Постоянные клиенты */
+.section-client{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.list-clients{display: flex;
+justify-content: center;
+gap: 30px;}
+
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+}
 
  /* fotter */
  .footer{background-color:var(--futer-fon) ;
