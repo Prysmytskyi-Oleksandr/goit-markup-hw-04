@@ -267,12 +267,16 @@ text-align: center;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
         }
     .emploee{
         padding-top: 30px;
         padding-bottom: 30px;
+        background-color: #FFFFFF;
     }
-    .list-icons{display: flex;}
+    .list-icons{display: flex;
+    justify-content: center;
+    gap: 10px;}
 
        .icons-link{
         display: flex;
@@ -280,9 +284,20 @@ text-align: center;
         align-items: center;
         width: 44px;
         height: 44px;
+        border-radius: 50%;    
+        }
 
-       }
-        .icon-link{display: block;}
+    .icons-link:hover,
+    .icons-link:focus{
+        background-color: var(--accent-color);
+    }
+
+
+    .icon-link{display: block;
+        fill: #AFB1B8;
+    }
+        .icons-link:hover .icon-link,
+        .icons-link:focus .icon-link {fill: #FFFFFF;}
 
  /* fotter */
  .footer{background-color:var(--futer-fon) ;
