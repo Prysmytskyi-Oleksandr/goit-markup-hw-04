@@ -298,8 +298,10 @@ text-align: center;
     .icon-link{display: block;
         fill: #AFB1B8;}
 
-    .icon-link:hover,
-    .icon-link:focus {fill: #FFFFFF;}
+    .icons-link:hover, .icon-link
+    .icons-link:focus .icon-link{fill: #FFFFFF;}
+
+    
 
 /* Постоянные клиенты */
 .section-client{
@@ -329,8 +331,13 @@ gap: 30px;}
 
 .icon-client{fill: #AFB1B8;}
 
-.client .icon-client:hover,
-.client .icon-client:focus{fill: var(--accent-color);
+.client:hover .icon-client,
+.client:focus  .icon-client{
+    fill: var(--accent-color);
+}
+
+.client:hover .icon-clien,
+.client:focus .icon-client{fill: var(--accent-color);
 }
 
  /* fotter */
