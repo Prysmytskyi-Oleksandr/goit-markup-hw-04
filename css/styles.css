@@ -136,6 +136,11 @@ margin-left: auto;}
 .mailtel-h:hover,
 .mailtel-h:focus {color: var(--accent-color);}
 
+.icon-mail:hover,
+.icon-mail:focus {
+    color: var(--accent-color);
+}
+
 
 /* main */
 /* фон героя */
