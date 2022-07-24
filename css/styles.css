@@ -298,7 +298,7 @@ text-align: center;
     .icon-link{display: block;
         fill: #AFB1B8;}
 
-    .icons-link:hover, .icon-link
+    .icons-link:hover .icon-link,
     .icons-link:focus .icon-link{fill: #FFFFFF;}
 
     
@@ -336,9 +336,6 @@ gap: 30px;}
     fill: var(--accent-color);
 }
 
-.client:hover .icon-clien,
-.client:focus .icon-client{fill: var(--accent-color);
-}
 
  /* fotter */
  .footer{background-color:var(--futer-fon) ;
