@@ -136,10 +136,13 @@ margin-left: auto;}
 .mailtel-h:hover,
 .mailtel-h:focus {color: var(--accent-color);}
 
-/* .icon-mail:hover,
-.icon-mail:focus {
-    color: var(--accent-color); */
-/* } */
+.icon-mail{color: var(--primary-text-color)}
+
+.mailtel-h:hover .icon-mail,
+.mailtel-h:focus .icon-mail{
+    color: var(--accent-color);
+}
+
 
 
 /* main */
