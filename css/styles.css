@@ -217,21 +217,17 @@ border-radius: 4px;
 }
 
 /* Характеристика компании*/
-.profile-fon{background-color: #F5F4FA;
-    padding-top: 25px;
-    padding-right: 100px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    margin-bottom: 30px;
-}
-.icons{
-    display:block;
-    width: 100%;
-    height: 100%;
-   
-    
+.profile-fon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+        margin-bottom: 30px;
 }
 
+  
 .properties-list{display: flex;}
 .profile:not(:last-child) {margin-right:30px;}
 
@@ -347,11 +343,8 @@ gap: 30px;}
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-}
+  }
+
 .client:hover,
 .client:focus{border-color: var(--accent-color);}
 
@@ -365,7 +358,7 @@ gap: 30px;}
 
  /* fotter */
  .footer{display: flex;
-    background-color:var(--futer-fon) ;
+background-color:var(--futer-fon) ;
 padding-top: 60px;
 padding-bottom: 60px;}
 
@@ -398,7 +391,8 @@ padding-bottom: 60px;}
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);}
 
-.footer .container{display: flex;}
+.footer .container{display: flex;
+align-items:baseline;}
 .thumb-logo-address{margin-right: 70px;}
 
 
